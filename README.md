@@ -1,6 +1,6 @@
 # Livewire Secure Properties 🔒
 
-An elegant, zero-configuration security package for Laravel Livewire 4 that automatically locks all public component properties from client-side manipulation, unless explicitly marked as unlocked.
+An elegant, zero-configuration security package for Laravel Livewire 4 & 3.5 that automatically locks all public component properties from client-side manipulation, unless explicitly marked as unlocked.
 
 ## Requirements
 
@@ -78,6 +78,18 @@ LIVEWIRE_SECURE_PROPERTIES_ENABLED=false
 ## Security Violations
 
 When a locked property is violated, the package throws a `PropertyLockedException` with a `403` status code, making it easy to intercept globally or monitor via your error loggers.
+
+## Upcoming Section 🚀 (Stay Tuned!)
+
+### The Ultimate Neovim Config for Modern Web & Laravel Devs ⚡
+
+I am currently cooking a comprehensive guide and boilerplate configuration on **How to turn Neovim into a powerhouse IDE** explicitly optimized for:
+
+- **Backend & Frameworks**: PHP (Intelephense/Phpactor) & Full Laravel Integration (Artisan, Blade, Treesitter)
+- **Frontend & Tooling**: HTML, CSS, JavaScript, TypeScript, and Livewire SFCs
+- **Speed**: Blazing fast autocompletion, lightning-speed code navigation, and fuzzy finding.
+
+_Star the repository to get notified immediately when this configuration drops!_
 
 ## Support & Sponsorship
 
