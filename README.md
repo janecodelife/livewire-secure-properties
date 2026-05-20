@@ -1,6 +1,6 @@
 # Livewire Secure Properties 🔒
 
-An elegant, zero-configuration security package for Laravel Livewire 4 & 3.5 that automatically locks all public component properties from client-side manipulation, unless explicitly marked as unlocked.
+An elegant, zero-configuration security package for Laravel Livewire 4 that automatically locks all public component properties from client-side manipulation, unless explicitly marked as unlocked.
 
 ## Requirements
 
@@ -13,10 +13,6 @@ You can install the package via composer:
 ```bash
 composer require jane-joe/livewire-secure-properties
 ```
-
-## How It Works
-
-By default, this package automatically intercepts all client-side updates (like `wire:model` or JS modifications). If a user attempts to modify a property from the client side without authorization, a `PropertyLockedException` (403 Forbidden) is thrown immediately.
 
 ## Usage
 
