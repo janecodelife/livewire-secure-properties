@@ -1,5 +1,5 @@
 {
-  "name": "jane-joe/livewire-secure-properties",
+  "name": "janecodelife/livewire-secure-properties",
   "description": "Automatically lock Livewire properties from client-side modification unless explicitly unlocked with zero configs.",
   "keywords": [
     "laravel",
@@ -15,8 +15,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Jane Joe",
-      "email": "jane.joe@example.com"
+      "name": "Jane Code Live"
     }
   ],
   "require": {
@@ -25,6 +24,11 @@
   "autoload": {
     "psr-4": {
       "JaneJoe\\LivewireSecureProperties\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JaneJoe\\LivewireSecureProperties\\Tests\\": "src/tests/"
     }
   },
   "extra": {
@@ -37,7 +41,7 @@
   "funding": [
     {
       "type": "github",
-      "url": "https://github.com"
+      "url": "https://github.com/janecodelife/livewire-secure-properties"
     }
   ]
 }

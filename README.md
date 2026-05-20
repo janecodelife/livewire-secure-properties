@@ -11,7 +11,7 @@ An elegant, zero-configuration security package for Laravel Livewire 4 & 3.5 tha
 You can install the package via composer:
 
 ```bash
-composer require jane-joe/livewire-secure-properties
+composer require janecodelife/livewire-secure-properties
 ```
 
 ## Usage
