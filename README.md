@@ -4,9 +4,7 @@ An elegant, zero-configuration security package for Laravel Livewire 4 & 3.5 tha
 
 ## Requirements
 
-- PHP ^8.2
-- Laravel ^11.0 | ^12.0 | ^13.0
-- Livewire ^3.5 | ^4.0
+- Livewire ^4.0
 
 ## Installation
 
@@ -22,31 +20,7 @@ By default, this package automatically intercepts all client-side updates (like 
 
 ## Usage
 
-### 1. Standard Livewire Components
-
-To allow a property to be updated from the frontend in a standard component, simply add the `#[Unlocked]` attribute above it:
-
-```php
-use Livewire\Component;
-use JaneJoe\LivewireSecureProperties\Unlocked;
-
-class UserProfile extends Component
-{
-    // ❌ LOCKED: Any client-side update will throw a Security Violation exception
-    public string $role = 'admin';
-
-    // ✅ UNLOCKED: Safe to update via wire:model or client-side requests
-    #[Unlocked]
-    public string $name = 'Jane Joe';
-
-    public function render()
-    {
-        return view('livewire.user-profile');
-    }
-}
-```
-
-### 2. Single File Components (SFC)
+### 1. Single File Components (SFC)
 
 If you are using Livewire 4's native Single File Components layout, you can safely use the `#[Unlocked]` attribute inside the anonymous class block:
 
@@ -56,24 +30,45 @@ If you are using Livewire 4's native Single File Components layout, you can safe
 use Livewire\Component;
 use JaneJoe\LivewireSecureProperties\Unlocked;
 
-new class extends Component
-{
-    // ❌ LOCKED: Any client-side update will throw a Security Violation exception
+new class extends Component {
+    // ✅ Secured: Locked by default, any client-side update will throw a Security Violation exception
     public string $role = 'admin';
 
-    // ✅ UNLOCKED: Safe to update via wire:model or client-side requests
+    // 🔓 UNLOCKED: Updatable from client side via wire:model or client-side requests
     #[Unlocked]
     public string $name = 'Jane Joe';
 };
 ?>
 
 <div>
-    <!-- Bound via wire:model safely -->
-    <input type="text" wire:model="name">
-
+    <input type="text" wire:model.live="name">
+    <p>Name: {{ $name }}</p>
     <!-- This would securely block any client-side update attempts -->
+    <input type="text" wire:model.live="role">
     <p>Role: {{ $role }}</p>
 </div>
+```
+
+### 2. Multiple File Components (Class-based)
+
+```php
+use Livewire\Component;
+use JaneJoe\LivewireSecureProperties\Unlocked;
+
+class UserProfile extends Component
+{
+    // ✅ Secured: Locked by default, any client-side update will throw a Security Violation exception
+    public string $role = 'admin';
+
+    // 🔓 UNLOCKED: Updatable from client side via wire:model or client-side requests
+    #[Unlocked]
+    public string $name = 'Jane Joe';
+
+    public function render()
+    {
+        return view('livewire.user-profile');
+    }
+}
 ```
 
 ## Configuration
@@ -91,3 +86,14 @@ When a locked property is violated, the package throws a `PropertyLockedExceptio
 ## Support & Sponsorship
 
 If this package secures your app, consider supporting further development through [GitHub Sponsors](https://github.com).
+
+## Our Awesome Sponsors 💖
+
+A huge thank you to our sponsors! If you'd like to support this project and feature your logo here, please become a sponsor.
+
+<!-- SPONSORS_START -->
+
+| [<img src="https://github.com" width="80" height="80" style="border-radius:50%"><br><sub>**Your Name / Company**</sub>](https://github.com) |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+
+<!-- SPONSORS_END -->
