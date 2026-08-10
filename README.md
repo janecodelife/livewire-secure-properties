@@ -69,8 +69,7 @@ class UserProfile extends Component
 
 ## Demo Video 📺
 
-<video src="assets/livewire_secure_properties_video.mp4" controls="controls" muted="muted" class="video-responsive" style="max-width: 100%">
-</video>
+[![Demo video](assets/video-poster.png)](assets/livewire_secure_properties_video.mp4)
 
 ## Configuration
 
