@@ -5,13 +5,14 @@ on:
     branches:
       - main
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Tell Packagist to Update
-        uses: curl/curl-fast@v1
-        with:
-          args: -XPOST -H "Content-Type: application/json" -d '{"repository":{"url":"https://github.com{{ github.repository }}"}}' https://packagist.org\&api-token=${{ secrets.PACKAGIST_TOKEN }}
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+            -d '{"repository":{"url":"https://github.com{{ github.repository }}"}}' \
+            "https://packagist.org{{ secrets.PACKAGIST_TOKEN }}"
