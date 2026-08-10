@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Tell Packagist to Update
         run: |
-          curl -X POST -H "Content-Type: application/json" \
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer janecodelife:${{ secrets.PACKAGIST_TOKEN }}" \
             -d '{"repository":{"url":"https://github.com{{ github.repository }}"}}' \
-            "https://packagist.org{{ secrets.PACKAGIST_TOKEN }}"
+            "https://packagist.org/api/update-package"
