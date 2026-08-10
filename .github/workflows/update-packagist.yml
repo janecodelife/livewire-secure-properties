@@ -1,0 +1,17 @@
+name: Update Packagist
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tell Packagist to Update
+        uses: curl/curl-fast@v1
+        with:
+          args: -XPOST -H "Content-Type: application/json" -d '{"repository":{"url":"https://github.com{{ github.repository }}"}}' https://packagist.org\&api-token=${{ secrets.PACKAGIST_TOKEN }}

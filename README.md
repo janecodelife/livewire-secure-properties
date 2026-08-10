@@ -79,13 +79,13 @@ LIVEWIRE_SECURE_PROPERTIES_ENABLED=false
 
 When a locked property is violated, the package throws a `PropertyLockedException` with a `403` status code, making it easy to intercept globally or monitor via your error loggers.
 
-## Upcoming Section 🚀 (Stay Tuned!)
+## Upcoming 🚀 (Stay Tuned!)
 
 ### The Ultimate Neovim Config for Modern Web & Laravel Devs ⚡
 
-I am currently cooking a comprehensive guide and boilerplate configuration on **How to turn Neovim into a powerhouse IDE** explicitly optimized for:
+I am currently cooking a comprehensive guide and boilerplate configuration on **How to turn Neovim into a (Powerful) IDE** explicitly optimized for:
 
-- **Backend & Frameworks**: PHP (Intelephense/Phpactor) & Full Laravel Integration (Artisan, Blade, Treesitter)
+- **Backend & Frameworks**: PHP (Intelephense) & Full Laravel & Livewire Integration (With Preformance)
 - **Frontend & Tooling**: HTML, CSS, JavaScript, TypeScript, and Livewire SFCs
 - **Speed**: Blazing fast autocompletion, lightning-speed code navigation, and fuzzy finding.
 
