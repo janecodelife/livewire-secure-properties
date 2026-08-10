@@ -67,6 +67,11 @@ class UserProfile extends Component
 }
 ```
 
+## Demo Video 📺
+
+<video src="assets/demo.mp4" controls="controls" muted="muted" class="video-responsive" style="max-width: 100%">
+</video>
+
 ## Configuration
 
 If you need to disable the package globally during specific environments (e.g., local debugging), you can add this environment variable to your `.env` file:
