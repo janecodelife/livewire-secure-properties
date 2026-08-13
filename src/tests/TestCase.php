@@ -1,8 +1,8 @@
 <?php
 
-namespace JaneJoe\LivewireSecureProperties\Tests;
+namespace JaneCodeLife\LivewireSecureProperties\Tests;
 
-use JaneJoe\LivewireSecureProperties\LivewireSecurePropertiesServiceProvider;
+use JaneCodeLife\LivewireSecureProperties\LivewireSecurePropertiesServiceProvider;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 

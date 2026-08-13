@@ -1,0 +1,28 @@
+name: Update Sponsors in README
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # يعمل تلقائياً كل يوم في منتصف الليل
+  workflow_dispatch: # يتيح لك تشغيله يدوياً في أي وقت بضغطة زر
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Generate Sponsors Grid
+        uses: jamesgeorge007/github-sponsors-readme-action@v1
+        with:
+          token: ${{ secrets.METADATA_TOKEN }}
+          file: "README.md"
+          minimum-amount: 15 # 💡 السحر هنا: يظهر فقط الداعمين من 15 دولاراً فأكثر (ويستبعد فئة الـ 5 دولارات)
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41851325+github-actions[bot]@://github.com"
+          git add README.md
+          git commit -m "chore: update sponsors grid in README (Tier $15+)" || exit 0
+          git push origin main

@@ -23,18 +23,18 @@
   },
   "autoload": {
     "psr-4": {
-      "JaneJoe\\LivewireSecureProperties\\": "src/"
+      "JaneCodeLife\\LivewireSecureProperties\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "JaneJoe\\LivewireSecureProperties\\Tests\\": "src/tests/"
+      "JaneCodeLife\\LivewireSecureProperties\\Tests\\": "src/tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "JaneJoe\\LivewireSecureProperties\\LivewireSecurePropertiesServiceProvider"
+        "JaneCodeLife\\LivewireSecureProperties\\LivewireSecurePropertiesServiceProvider"
       ]
     }
   },

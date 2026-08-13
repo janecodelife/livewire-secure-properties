@@ -1,6 +1,6 @@
 <?php
 
-namespace JaneJoe\LivewireSecureProperties;
+namespace JaneCodeLife\LivewireSecureProperties;
 
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;

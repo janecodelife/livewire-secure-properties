@@ -1,6 +1,6 @@
 <?php
 
-namespace JaneJoe\LivewireSecureProperties\Exceptions;
+namespace JaneCodeLife\LivewireSecureProperties\Exceptions;
 
 use Exception;
 

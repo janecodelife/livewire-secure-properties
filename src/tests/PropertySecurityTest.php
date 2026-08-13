@@ -1,9 +1,9 @@
 <?php
 
-namespace JaneJoe\LivewireSecureProperties\Tests;
+namespace JaneCodeLife\LivewireSecureProperties\Tests;
 
-use JaneJoe\LivewireSecureProperties\Exceptions\PropertyLockedException;
-use JaneJoe\LivewireSecureProperties\Unlocked;
+use JaneCodeLife\LivewireSecureProperties\Exceptions\PropertyLockedException;
+use JaneCodeLife\LivewireSecureProperties\Unlocked;
 use Livewire\Component;
 use Livewire\Livewire;
 

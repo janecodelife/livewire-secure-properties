@@ -1,8 +1,8 @@
 <?php
 
-namespace JaneJoe\LivewireSecureProperties;
+namespace JaneCodeLife\LivewireSecureProperties;
 
-use JaneJoe\LivewireSecureProperties\Exceptions\PropertyLockedException;
+use JaneCodeLife\LivewireSecureProperties\Exceptions\PropertyLockedException;
 use Livewire\ComponentHook;
 use ReflectionException;
 use ReflectionProperty;

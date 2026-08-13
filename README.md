@@ -24,7 +24,7 @@ If you are using Livewire 4's native Single File Components layout, you can safe
 <?php
 
 use Livewire\Component;
-use JaneJoe\LivewireSecureProperties\Unlocked;
+use JaneCodeLife\LivewireSecureProperties\Unlocked;
 
 new class extends Component {
     // ✅ Secured: Locked by default, any client-side update will throw a Security Violation exception
@@ -49,7 +49,7 @@ new class extends Component {
 
 ```php
 use Livewire\Component;
-use JaneJoe\LivewireSecureProperties\Unlocked;
+use JaneCodeLife\LivewireSecureProperties\Unlocked;
 
 class UserProfile extends Component
 {
@@ -99,15 +99,11 @@ _Star the repository to get notified immediately when this configuration drops!_
 
 ## Support & Sponsorship
 
-If this package secures your app, consider supporting further development through [GitHub Sponsors](https://github.com).
+If this package secures your app, consider supporting further development through [GitHub Sponsors](https://github.com/sponsors/janecodelife).
 
 ## Our Awesome Sponsors 💖
 
 A huge thank you to our sponsors! If you'd like to support this project and feature your logo here, please become a sponsor.
 
-<!-- SPONSORS_START -->
-
-| [<img src="https://github.com" width="80" height="80" style="border-radius:50%"><br><sub>**Your Name / Company**</sub>](https://github.com) |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: |
-
-<!-- SPONSORS_END -->
+<!-- github-sponsors-start -->
+<!-- github-sponsors-end -->
