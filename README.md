@@ -70,7 +70,7 @@ class UserProfile extends Component
 ## Demo Video 📺
 
 <p align="center">
-  <img src="assets/livewire_secure_properties.gif" alt="Livewire Secure Properties Demo" width="100%">
+  <img src="assets/livewire_secure_properties.gif" alt="Livewire Secure Properties Video" width="100%">
 </p>
 
 ## Configuration
