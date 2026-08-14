@@ -1,5 +1,6 @@
 # Livewire Secure Properties 🔒
 
+[![Follow on X](https://img.shields.io/badge/Follow-@janecodelife-000000?style=for-the-badge&logo=x)](https://x.com/janecodelife)
 An elegant, zero-configuration security package for Laravel Livewire 4 & 3.5 that automatically locks all public component properties from client-side manipulation, unless explicitly marked as unlocked.
 
 ## Requirements
@@ -94,8 +95,6 @@ I am currently cooking a comprehensive guide and boilerplate configuration on **
 - **Backend & Frameworks**: PHP (Intelephense) & Full Laravel & Livewire Integration (With Preformance)
 - **Frontend & Tooling**: HTML, CSS, JavaScript, TypeScript, and Livewire SFCs
 - **Speed**: Blazing fast autocompletion, lightning-speed code navigation, and fuzzy finding.
-
-_Star the repository to get notified immediately when this configuration drops!_
 
 ## Support & Sponsorship
 
