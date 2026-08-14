@@ -2,7 +2,13 @@
 
 [![Follow on X](https://img.shields.io/badge/Follow-@janecodelife-000000?style=for-the-badge&logo=x)](https://x.com/janecodelife)
 
-An elegant, zero-configuration security package for Laravel Livewire 4 & 3.5 that automatically locks all public component properties from client-side manipulation, unless explicitly marked as unlocked.
+An elegant, zero-configuration security package for Laravel Livewire 4 & 5 that automatically locks all public component properties from client-side manipulation, unless explicitly marked as unlocked.
+
+✅ Auto-lock properties
+✅ Zero configuration
+✅ Protects against client-side tampering
+✅ Unlock specific properties with #[Unlocked]
+✅ Supports Livewire 4 (Single & Multiple File)
 
 ## Requirements
 
