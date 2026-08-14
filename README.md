@@ -97,21 +97,11 @@ LIVEWIRE_SECURE_PROPERTIES_ENABLED=false
 
 When a locked property is violated, the package throws a `PropertyLockedException` with a `403` status code, making it easy to intercept globally or monitor via your error loggers.
 
-## Upcoming 🚀 (Stay Tuned!)
-
-### The Ultimate Neovim Config for Modern Web & Laravel Devs ⚡
-
-I am currently cooking a comprehensive guide and boilerplate configuration on **How to turn Neovim into a (Powerful) IDE** explicitly optimized for:
-
-- **Backend & Frameworks**: PHP (Intelephense) & Full Laravel & Livewire Integration (With Preformance)
-- **Frontend & Tooling**: HTML, CSS, JavaScript, TypeScript, and Livewire SFCs
-- **Speed**: Blazing fast autocompletion, lightning-speed code navigation, and fuzzy finding.
-
 ## Support & Sponsorship
 
 If this package secures your app, consider supporting further development through [GitHub Sponsors](https://github.com/sponsors/janecodelife).
 
-### Support me by coffee via USDT ☕
+### ☕☕☕☕Support me by coffee via USDT ☕☕☕☕
 
 - **Network:** `TRX Tron (TRC20)`
 - **Address:** `TAFFjBP39Z86weL5dDU1A2251VrgPprDUj`
@@ -121,3 +111,13 @@ If this package secures your app, consider supporting further development throug
 A huge thank you to our sponsors! If you'd like to support this project and feature your logo here, please become a sponsor.
 <!-- SPONSORS -->
 <!-- SPONSORS -->
+
+## Upcoming 🚀 (Stay Tuned!)
+
+### The Ultimate Neovim Config for Modern Web & Laravel Devs ⚡
+
+I am currently cooking a comprehensive guide and boilerplate configuration on **How to turn Neovim into a (Powerful) IDE** explicitly optimized for:
+
+- **Backend & Frameworks**: PHP (Intelephense) & Full Laravel & Livewire Integration (With Preformance)
+- **Frontend & Tooling**: HTML, CSS, JavaScript, TypeScript, and Livewire SFCs
+- **Speed**: Blazing fast autocompletion, lightning-speed code navigation, and fuzzy finding.
