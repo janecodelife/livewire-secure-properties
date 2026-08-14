@@ -104,6 +104,5 @@ If this package secures your app, consider supporting further development throug
 ## Our Awesome Sponsors 💖
 
 A huge thank you to our sponsors! If you'd like to support this project and feature your logo here, please become a sponsor.
-
-<!-- github-sponsors-start -->
-<!-- github-sponsors-end -->
+<!-- SPONSORS -->
+<!-- SPONSORS -->
