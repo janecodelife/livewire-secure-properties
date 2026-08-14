@@ -101,7 +101,7 @@ When a locked property is violated, the package throws a `PropertyLockedExceptio
 
 If this package secures your app, consider supporting further development through [GitHub Sponsors](https://github.com/sponsors/janecodelife).
 
-### ☕☕☕☕Support me by coffee via USDT ☕☕☕☕
+### ☕☕☕☕ Support me by coffee via USDT ☕☕☕☕
 
 - **Network:** `TRX Tron (TRC20)`
 - **Address:** `TAFFjBP39Z86weL5dDU1A2251VrgPprDUj`
