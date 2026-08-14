@@ -101,6 +101,11 @@ _Star the repository to get notified immediately when this configuration drops!_
 
 If this package secures your app, consider supporting further development through [GitHub Sponsors](https://github.com/sponsors/janecodelife).
 
+### Support me by coffee via USDT ☕
+
+- **Network:** `TRX Tron (TRC20)`
+- **Address:** `TAFFjBP39Z86weL5dDU1A2251VrgPprDUj`
+
 ## Our Awesome Sponsors 💖
 
 A huge thank you to our sponsors! If you'd like to support this project and feature your logo here, please become a sponsor.
