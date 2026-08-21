@@ -96,6 +96,7 @@ LIVEWIRE_SECURE_PROPERTIES_ENABLED=false
 ## Security Violations
 
 When a locked property is violated, the package throws a `PropertyLockedException` with a `403` status code, making it easy to intercept globally or monitor via your error loggers.
+
 ---
 
 ## 💝 Support the Project
