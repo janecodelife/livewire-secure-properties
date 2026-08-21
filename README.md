@@ -116,13 +116,21 @@ You can tip or donate directly to my **TRON (TRX / USDT-TRC20)** crypto wallet a
 
 ---
 
-
 ## 🔗 My Other Plugins
 
 Check out my other open-source tools to supercharge your Neovim environment:
 - **[livewire-secure-properties](https://github.com/janecodelife/livewire-secure-properties)** - Secure livewire app properties by default and void headache.
 - **[todo-tracker.nvim](https://github.com/janecodelife/todo-tracker.nvim)** - Assign and list app todos in a blink
 - **[folders-bookmark.nvim](https://github.com/janecodelife/folders-bookmark.nvim)** - Bookmark folders and accessing them by keymap in a blink
+
+---
+
+## 🤝 Let's Build Together (Contact Me)
+
+I will be there i am answer to all messages
+
+- **X (Twitter)**: [https://x.com/janecodelife](https://x.com/janecodelife)
+- **YouTube**: [https://www.youtube.com/@JaneCodeLife](https://www.youtube.com/@JaneCodeLife) 
 
 ---
 
