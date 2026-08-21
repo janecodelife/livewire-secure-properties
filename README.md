@@ -32,7 +32,7 @@ composer require janecodelife/livewire-secure-properties
 
 If you are using Livewire 4's native Single File Components layout, you can safely use the `#[Unlocked]` attribute inside the anonymous class block:
 
-```blade
+```php
 <?php
 
 use Livewire\Component;
@@ -96,17 +96,24 @@ LIVEWIRE_SECURE_PROPERTIES_ENABLED=false
 ## Security Violations
 
 When a locked property is violated, the package throws a `PropertyLockedException` with a `403` status code, making it easy to intercept globally or monitor via your error loggers.
+---
 
-## Support & Sponsorship
+## 💝 Support the Project
 
-If this package secures your app, consider supporting further development through [GitHub Sponsors](https://github.com/sponsors/janecodelife).
+> *This plugin is built entirely on developer insights gathered over **years of building real-world software** to catch common pain points, combined with **months of dedicated building and rigorous testing** to ensure it operates flawlessly.*
 
+If this utility boosts your everyday speed and eliminates annoying file search clutter, please consider buying me a coffee or supporting my continuous maintenance!
+
+You can tip or donate directly to my **TRON (TRX / USDT-TRC20)** crypto wallet address:
 ### ☕☕☕☕ Support me by coffee via USDT ☕☕☕☕
 
 - **Network:** `TRX Tron (TRC20)`
 - **Address:** `TAFFjBP39Z86weL5dDU1A2251VrgPprDUj`
 
-## Our Awesome Sponsors 💖
+> *Every bit of support fuels the expansion of this ecosystem and helps me write cleaner tools for all of us. Thank you for standing behind independent developers!* 🙏
+
+---
+
 
 A huge thank you to our sponsors! If you'd like to support this project and feature your logo here, please become a sponsor.
 <!-- SPONSORS -->
