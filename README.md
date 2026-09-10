@@ -15,6 +15,17 @@ An elegant, zero-configuration security package for Laravel Livewire 4 that auto
 
 ✅ Supports Livewire 4 (Single & Multiple File)
 
+
+--- 
+
+💝 Support me by the only available way now: USDT to buy a new dev laptop. Info is below, 
+or contact me by 📩 email: janecodelife@gmail.com
+
+## Thank You So Much
+
+---
+
+
 ## Requirements
 
 - Livewire ^4.0
@@ -123,6 +134,7 @@ Check out my other open-source tools to supercharge your Neovim environment:
 - **[todo-tracker.nvim](https://github.com/janecodelife/todo-tracker.nvim)** - Assign and list app todos in a blink
 - **[folders-bookmark.nvim](https://github.com/janecodelife/folders-bookmark.nvim)** - Bookmark folders and accessing them by keymap in a blink
 - **[copy-history.nvim](https://github.com/janecodelife/copy-history.nvim)** - Access your copy (Yank) history and paste it again by 1 click in a blink.
+- **[rest-client.nvim](https://github.com/janecodelife/rest-client.nvim)** - run http request from anywhere in a blink
 
 ---
 
