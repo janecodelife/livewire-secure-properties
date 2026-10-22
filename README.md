@@ -131,6 +131,7 @@ Check out my other open-source tools to supercharge your Neovim environment:
 - **[copy-history.nvim](https://github.com/janecodelife/copy-history.nvim)** - Access your copy (Yank) history and paste it again with support of edit by 1 click in a blink.
 - **[rest-client.nvim](https://github.com/janecodelife/rest-client.nvim)** - run http request from anywhere in a blink
 - **[smart-window-focus.nvim](https://github.com/janecodelife/smart-window-focus.nvim)** - resize split window on focus to be full size to easy to see and debug.
+- **[markdown-toc.nvim](https://github.com/janecodelife/markdown-toc.nvim)** - access markdown file headings (Table Of Content)
 
 ---
 
