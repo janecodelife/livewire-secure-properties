@@ -132,6 +132,7 @@ Check out my other open-source tools to supercharge your Neovim environment:
 - **[rest-client.nvim](https://github.com/janecodelife/rest-client.nvim)** - run http request from anywhere in a blink
 - **[smart-window-focus.nvim](https://github.com/janecodelife/smart-window-focus.nvim)** - resize split window on focus to be full size to easy to see and debug.
 - **[markdown-toc.nvim](https://github.com/janecodelife/markdown-toc.nvim)** - access markdown file headings (Table Of Content)
+- **[tiny-textobject.nvim](https://github.com/janecodelife/tiny-textobject.nvim)** - handle text objects (inner/around) without need for Tree-sitter.
 
 ---
 
