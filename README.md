@@ -136,14 +136,19 @@ Check out my other open-source tools to supercharge your Neovim environment:
 
 ## If Have A Question 🤝 (Contact Me) 🤟
 
-I will be there i am answer to all messages
+I will be there to answer to all messages
 
 - **X (Twitter)**: [https://x.com/janecodelife](https://x.com/janecodelife)
 - **YouTube**: [https://www.youtube.com/@JaneCodeLife](https://www.youtube.com/@JaneCodeLife)
 - **Email**: [janecodelife@gmail.com](janecodelife@gmail.com)
+
+[![Follow on X](https://img.shields.io/badge/Follow-@janecodelife-000000?style=for-the-badge&logo=x)](https://x.com/janecodelife)
+[![Subscribe on YouTube](https://img.shields.io/badge/Subscribe-@JaneCodeLife-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@JaneCodeLife)
 
 ---
 
 ## Upcoming 🚀 (Stay Tuned!)
 
 ### The Ultimate Neovim Config for All Modern Web & Laravel Devs ⚡
+
+# Thank You
