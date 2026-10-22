@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.METADATA_TOKEN }}
           file: "README.md"
-          minimum: 15
+          minimum: 100
 
       - name: Commit and Push Changes
         run: |
