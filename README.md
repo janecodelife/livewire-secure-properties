@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/janecodelife)
-[![Follow on X](https://img.shields.io/badge/Follow-@janecodelife-000000?style=for-the-badge&logo=x)](https://x.com/janecodelife)
-[![Subscribe on YouTube](https://img.shields.io/badge/Subscribe-@JaneCodeLife-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@JaneCodeLife)
 
 An elegant, zero-configuration security package for Laravel Livewire 4 that automatically locks all public component properties from client-side manipulation, unless explicitly marked as unlocked.
 
@@ -104,10 +102,8 @@ When a locked property is violated, the package throws a `PropertyLockedExceptio
 
 ---
 
-## 💝 Support the Project 💝
+## 💝🤟 Support the Project 🤟💝
 
-👉 **[Become a Sponsor on GitHub](https://github.com/sponsors/janecodelife)**
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/janecodelife)
 <p align="center">
   <a href="https://github.com/sponsors/janecodelife">
     <img src="https://img.shields.io/badge/👉%20Become%20a%20Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github" alt="Become a Sponsor on GitHub" />
@@ -115,6 +111,13 @@ When a locked property is violated, the package throws a `PropertyLockedExceptio
 </p>
 
 Every bit of support fuels the expansion of this ecosystem and helps me write cleaner tools for all of us. Thank you for standing behind independent developers!_ 🙏🤟
+
+---
+
+## 💝🤟 A huge thank you to our sponsors! 💝🤟
+
+<!-- SPONSORS -->
+<!-- SPONSORS -->
 
 ---
 
@@ -138,13 +141,6 @@ I will be there i am answer to all messages
 - **X (Twitter)**: [https://x.com/janecodelife](https://x.com/janecodelife)
 - **YouTube**: [https://www.youtube.com/@JaneCodeLife](https://www.youtube.com/@JaneCodeLife)
 - **Email**: [janecodelife@gmail.com](janecodelife@gmail.com)
-
----
-
-A huge thank you to our sponsors!
-
-<!-- SPONSORS -->
-<!-- SPONSORS -->
 
 ---
 
