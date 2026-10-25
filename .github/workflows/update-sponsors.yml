@@ -2,8 +2,8 @@ name: Update Sponsors in README
 
 on:
   schedule:
-    - cron: "0 0 * * *" # يعمل تلقائياً كل يوم في منتصف الليل
-  workflow_dispatch: # يتيح لك تشغيله يدوياً في أي وقت بضغطة زر
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 permissions:
   contents: write
 
