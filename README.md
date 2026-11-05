@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/livewire-secure-properties.jpeg" alt="Project Banner" width="100%">
+</p>
+
 # Livewire Secure Properties 🔒
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
