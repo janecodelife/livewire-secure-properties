@@ -17,6 +17,37 @@ An elegant, zero-configuration security package for Laravel Livewire 4 that auto
 
 ---
 
+## 💡 Imagine This Scenario (Use Cases)
+
+### 🕵️‍♂️ Scenario 1: Account ID Spoofing Or In Details Pages
+
+**Imagine** a multi-step multi-tenant onboarding wizard where you pass a public identifier to keep track of the account being edited:
+
+```php
+public int $accountId = 45;
+public int $formStep = 1;
+```
+
+**The Risk:** The user alters the `$accountId` in their browser from `45` to `46`, allowing them to view or overwrite data belonging to an entirely different customer or tenant.
+
+**The Solution:** Since you did not add the `#[Unlocked]` attribute to `$accountId`, it is strictly bulletproof. The front-end cannot mutate this state between requests, effortlessly closing broken object-level authorization (BOLA) vulnerabilities without you writing a single line of defensive boilerplate code.
+
+### 🌍 Scenario 2: Cascading Dropdowns & Relational Tampering (Country ➔ State ➔ City)
+
+**Imagine** you are building a registration form with cascading dropdowns where selecting a Country loads its States, and selecting a State loads its Cities:
+
+```php
+public int $countryId; // ✅ Secured: Locked by default
+public int $stateId;   // ✅ Secured: Locked by default (Crucial!)
+public int $cityId;    // ✅ Secured: Locked by default
+```
+
+**The Risk:** If you leave `$stateId` or `$countryId` open/unlocked (`#[Unlocked]`), a malicious user can easily open browser DevTools. They could select a valid State and City for _Germany_, but manually alter the `$stateId` or `$countryId` payload to point to IDs in the _USA_ right before submitting. This bypasses your frontend UI logic and injects corrupted, mismatched relational data into your database (e.g., a user saved with Country: USA, State: Berlin, City: Munich).
+
+**The Solution:** By leaving the entire chain locked, you force the state mutation to happen safely via secure backend methods (using `wire:change` instead of direct `wire:model`). The client cannot forge or desynchronize any parent-child relational IDs, automatically guaranteeing 100% data integrity across your entire cascading chain.
+
+---
+
 ## Requirements
 
 - Livewire ^4.0
