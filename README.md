@@ -21,7 +21,7 @@ An elegant, zero-configuration security package for Laravel Livewire 4 that auto
 
 ---
 
-## 💡 Imagine These Scenarios (Use Cases)
+## 💡💡 Imagine These Scenarios (Use Cases) 💡💡
 
 ### 🕵️‍♂️ Scenario 1: Account ID Spoofing Or In Details Pages
 
