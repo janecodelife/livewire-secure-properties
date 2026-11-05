@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/livewire-secure-properties.jpeg" alt="Project Banner" width="100%">
+  <img src="./assets/livewire-secure-properties.jpeg" alt="Project Banner" style="width: 100%; height: 250px; object-fit: cover;">
 </p>
 
 # Livewire Secure Properties 🔒
