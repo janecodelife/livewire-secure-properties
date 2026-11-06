@@ -1,8 +1,10 @@
+# Plugin (#1)
+
 <p align="center">
   <img src="./assets/livewire-secure-properties.jpeg" alt="Project Banner" style="width: 100%; height: 250px; object-fit: cover;">
 </p>
 
-# Livewire Secure Properties 🔒
+# 🔒 Livewire Secure Properties 🔒
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github)](https://github.com/sponsors/janecodelife)
@@ -23,7 +25,7 @@ An elegant, zero-configuration security package for Laravel Livewire 4 that auto
 
 ## 💡💡 Imagine These Scenarios (Use Cases) 💡💡
 
-### 🕵️‍♂️ Scenario 1: Account ID Spoofing Or In Details Pages
+### 🕵️‍♂️ Scenario 1: Account ID Spoofing Or In Details Pages Or In Multiple Step Form
 
 **Imagine** a multi-step multi-tenant onboarding wizard where you pass a public identifier to keep track of the account being edited:
 
